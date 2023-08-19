@@ -35,17 +35,24 @@ function content() {
 // showTextButton.addEventListener("click", function() {
 //     mydiv.style.display = "block";
 // });
-// const hide = document.getElementById("head");
+
 
 function show() {
       
       const showTextButton = document.getElementById("show");
+      // showTextButton.textContent = "Hide"
       const mydiv = document.getElementById("mydiv");
       // document.write(showTextButton)
       mydiv.style.display = "block";
-      mydiv.style.backgroundColor = "parpple"
+      mydiv.style.backgroundColor = "black"
       // hide.style.display = "block";
 
+}
+
+function hide() {
+      const hide = document.getElementsById("head");
+      // hide.textContent = "hide"
+      hide.style.display = "hidden"
 }
 
 
