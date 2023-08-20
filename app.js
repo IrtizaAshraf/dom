@@ -36,26 +36,28 @@ function content() {
 //     mydiv.style.display = "block";
 // });
 
-
+//solve 1
 function show() {
       
       const showTextButton = document.getElementById("show");
-      // showTextButton.textContent = "Hide"
       const mydiv = document.getElementById("mydiv");
-      // document.write(showTextButton)
       mydiv.style.display = "block";
-      mydiv.style.backgroundColor = "black"
-      // hide.style.display = "block";
+      mydiv.style.color = "blue"
+      
 
 }
 
+// function hide() {
+//       const hide = document.getElementById("mydiv");
+//       hide.textContent.style.display= "none";
+// }
+
+//solve 2
 function hide() {
-      const hide = document.getElementsById("head");
-      // hide.textContent = "hide"
-      hide.style.display = "hidden"
-}
-
-
-
+      const divToHide = document.getElementById("mydiv");
+      divToHide.style.display = "none";
+      divToHide.title ="hide"
+  }
+  
 
 
